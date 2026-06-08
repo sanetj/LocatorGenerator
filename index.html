@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Locator Generator</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Locator Generator</h1>
+
+<textarea id="htmlInput" oninput="parseHTML()" onpaste="handlePaste(event)"></textarea>
+<select id="elementSelector"></select>
+
+<button onclick="generateLocator()">Generate Locator</button>
+<button onclick="generatePOM()">Generate Page Object</button>
+
+<h2>Results</h2>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
