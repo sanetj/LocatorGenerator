@@ -1,0 +1,2 @@
+# LocatorGenerator
+playwright locator generator
